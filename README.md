@@ -2,7 +2,6 @@ Password Generator in Python
 
 This is a simple password generator in Python that creates random and secure passwords that meet certain criteria. The generator creates passwords with a mixture of lowercase letters, uppercase letters, digits, and punctuation marks. It checks if the generated password contains at least one lowercase letter, at least one uppercase letter, at least one digit, and at least one punctuation mark. If the generated password doesn't meet these criteria, it generates a new password until a suitable one is found.
 
-This code includes two examples of password generators, one that uses the `secrets` module and one that doesn't. The `secrets` module is a cryptographically secure way to generate random numbers, and it's recommended for generating passwords. However, the second example shows how to create a password generator without using external modules.
 
 Usage
 
